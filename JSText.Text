@@ -1,0 +1,11 @@
+                           [[ JS All of this file ]]
+
+
+        *** Object Prototype ** 
+
+  ** Prototype :- Prototype vo concept hai jo method or constructor ko property ke 
+                 bahar add kar sakte hai 
+
+   --> Agar object me kuch add karna hai to Prototype ki jrurt nahi pregi, 
+   but agar functon me lagana hai to Prototype ka use karna prega 
+                

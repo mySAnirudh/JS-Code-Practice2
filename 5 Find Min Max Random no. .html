@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+   function getRandom (min , max ){
+       let x = Math.floor(Math.random() * (max - min)) + min ; 
+       return x ;
+
+   }
+   console.log(getRandom(10, 20 )) ;
+  </script>  
+
+<script>
+    function getRandom (min , max ){
+        let x = Math.floor(Math.random() * (max - min + 1)) + min ; // When you add + 1 the it's
+        // whow the rendom no. between 20 
+        return x ;
+ 
+    }
+   document.write(getRandom(10, 20 )) ;
+   </script>  
+
+</body>
+</html>

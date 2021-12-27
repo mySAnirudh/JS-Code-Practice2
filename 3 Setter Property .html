@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Jab hame kisi bhi proprty ka value change karke ya manupulate
+        // karke show karna ho to use karte hai ise
+
+        // Setter Property 
+        // We want : kaise bhi set kare vo capitl me hi set ho 
+
+        var person = {
+            name: "SamratSingh",
+            age: "21",
+
+          set setname(n) {
+              this.name = n.toUppercase ();
+          }
+        };
+          person.setname = "sam";
+       document.write(person);
+    </script>
+</body>
+</html>

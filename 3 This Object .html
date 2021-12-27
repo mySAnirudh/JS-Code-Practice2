@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let person = {
+            firstName: "Samrat",
+            lastName: "Singh" ,
+            sayHello () {
+                console.log( "Hello! I am  "+ this.firstName + " and have a " + car.brand +" car");
+            }  // This property is use at place of person 
+            // Try to use this "this"
+
+        };
+        let car = {
+            brand : 'Tata',
+            model : 'Safari'
+        }
+    
+
+        person.sayHello();
+
+    </script>
+</body>
+</html>

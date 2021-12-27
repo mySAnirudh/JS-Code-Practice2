@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+       // This is use when we nake multiple student data 
+
+       function Student (first, last, age , cls) {
+
+        this.firstName = first;
+        this.lastName = last;
+        this.age = age;
+        this.class = cls;
+
+       }
+
+       var student1 = new Student( "Samrat ", "Singh" , "21", "5");  // We can also add new property in Constructer like this 
+
+       student1.Nationality = "Indian";
+
+
+//Adding new method
+
+      student1.name = function(){
+          return this.firstName + " " + this.lastName;
+      }
+
+       var student2 = new Student( "Anirudh", "Kumar" , "21", "6");
+       var student3 = new Student( "Chakvarti", "Singh" , "24", "7");
+console.log(student1);
+
+   </script> 
+</body>
+</html>
